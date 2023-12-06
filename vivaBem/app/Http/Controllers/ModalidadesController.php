@@ -29,8 +29,4 @@ class ModalidadesController extends Controller
     public function natacao(){
         return view('site.modalidades.natacao');
     }
-
-    public function aerobico(){
-        return view('site.modalidades.aerobico');
-    }
 }

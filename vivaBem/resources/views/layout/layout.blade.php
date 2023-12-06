@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicons - Place favicon.ico in the root directory -->
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/favicon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/logoVivaBem.svg') }}">
     <link rel="manifest" href="{{ asset('img/manifest.json') }}">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="{{ asset('img/ms-icon-144x144.png') }}">
@@ -85,7 +85,7 @@
                     <li><a href="{{ url('/') }}">Início</a></li>
                     <li><a href="{{ url('sobre') }}">Sobre Nós</a></li>
                     <li><a href="{{ url('treino') }}">Treino</a></li>
-                    <li><a href="{{ url('modalidades') }}">Modalidades</a></li>
+                    <li><a href="{{ url('modalidade') }}">Modalidades</a></li>
                     <li><a href="{{ url('blog') }}">Blog</a></li>
                     <li><a href="{{ url('contato') }}">Contato</a></li>
                 </ul>
@@ -108,14 +108,13 @@
                         <a href="{{ url('/') }}">Início</a>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="{{ url('modalidades') }}">Modalidades</a>
+                        <a href="{{ url('modalidade') }}">Modalidades</a>
                         <ul class="sub-menu">
                             <li><a href="{{ url('modalidades/musculacao') }}">Musculação</a></li>
                             <li><a href="{{ url('modalidades/peso') }}">Powerlifting</a></li>
                             <li><a href="{{ url('modalidades/meditacao') }}">Meditação</a></li>
                             <li><a href="{{ url('modalidades/lutas') }}">Lutas</a></li>
                             <li><a href="{{ url('modalidades/natacao') }}">Natação</a></li>
-                            <li><a href="{{ url('modalidades/aerobico') }}">Aeróbico</a></li>
                         </ul>
                     </li>
 
@@ -196,7 +195,6 @@
                                             <li><a href="{{ url('modalidades/meditacao') }}">Meditação</a></li>
                                             <li><a href="{{ url('modalidades/lutas') }}">Lutas</a></li>
                                             <li><a href="{{ url('modalidades/natacao') }}">Natação</a></li>
-                                            <li><a href="{{ url('modalidades/aerobico') }}">Aeróbico</a></li>
                                         </ul>
                                     </li>
                                     <li>
@@ -268,7 +266,7 @@
                                     <li><a href="{{ url('/') }}">Início</a></li>
                                     <li><a href="{{ url('sobre') }}">Sobre Nós</a></li>
                                     <li><a href="{{ url('treino') }}">Treinos</a></li>
-                                    <li><a href="{{ url('modalidades') }}">Modalidades</a></li>
+                                    <li><a href="{{ url('modalidade') }}">Modalidades</a></li>
                                     <li><a href="{{ url('blog') }}">Blog</a></li>
                                     <li><a href="{{ url('contato') }}">Contato</a></li>
                                 </ul>

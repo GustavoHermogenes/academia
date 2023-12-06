@@ -5,8 +5,8 @@
 @section('conteudo')
 
     <!--==============================
-    Breadcumb
-    ============================== -->
+        Breadcumb
+        ============================== -->
     <div class="breadcumb-wrapper" data-bg-src="img/breadcrumb-bg.png">
         <!-- bg animated image/ -->
         <div class="container">
@@ -26,8 +26,8 @@
     </div>
 
     <!--==============================
-    Service Area 02
-    ==============================-->
+        Service Area 02
+        ==============================-->
     <div class="service-details-area space-top space-extra-bottom overflow-hidden">
         <div class="container">
             <div class="row">
@@ -37,45 +37,69 @@
                             <img src="img/service-details1-1.png" alt="img">
                         </div>
                         <div class="page-content">
-                            <h2 class="page-title">Champion Boxer Training</h2>
-                            <p class="mb-30">Boxers engage in intense cardiovascular exercises to build endurance and stamina. This includes activities like running, skipping rope, and high-intensity interval training (HIIT) to improve overall cardiovascular fitness. Strength and Power Training: Boxers focus on building functional strength and explosive power to deliver powerful punches. This involves weightlifting exercises, plyometrics, and bodyweight exercises such as push-ups, pull-ups, squats, and core exercises.</p>
-                            <p class="mb-50">During the CrossFit Boxing Challenge, you'll engage in a dynamic workout regimen that incorporates elements of strength training, cardiovascular conditioning, agility, and coordination. Under the guidance of experienced coaches, you'll learn proper boxing techniques, footwork, and defensive maneuvers, all while pushing yourself through a series of intense CrossFit workouts. Each session will challenge your physical and mental resilience, building not only strength but also enhancing your endurance and mental toughness.</p>
-                            <h3 class="page-subtitle mb-0">Why Choose Us?</h3>
-                            <p>There are several reasons why you should choose us:</p>
+                            <h2 class="page-title">Veja nossas modalidades</h2>
+                            <p class="mb-30">
+                                Bem-vindo à nossa academia, o lugar perfeito para transformar seus objetivos de
+                                condicionamento físico em realidade. Nossa variedade de modalidades foi cuidadosamente
+                                selecionada para atender a todas as suas necessidades e preferências. Descubra como podemos
+                                ajudá-lo a atingir o melhor de você em cada treino.
+                                Se você busca esculpir seus músculos, nossa área de musculação é equipada com os mais
+                                modernos aparelhos e instrutores dedicados. Desenvolva força, resistência e defina seus
+                                músculos em um ambiente motivador e energético.</p>
+                            <p class="mb-50">Para aqueles que preferem a sensação revigorante da água, nossa piscina é o
+                                local perfeito. Desde nadadores iniciantes até os mais experientes, oferecemos um espaço
+                                projetado para melhorar a resistência cardiovascular e proporcionar um treino refrescante de
+                                baixo impacto.</p>
+                            <h3 class="page-subtitle mb-0">Ainda não está satisfeito?</h3>
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="service-wrap">
-                                        <h6><i class="far fa-check me-2"></i> Diverse Range of Services:</h6>
-                                        <p>We offer a wide range of fitness services and programs to cater to different fitness levels, interests, and goals. </p>
+                                        <h6><i class="far fa-check me-2"></i>Natação:</h6>
+                                        <p>Para aqueles que preferem a sensação revigorante da água, nossa piscina é o local
+                                            perfeito. Desde nadadores iniciantes até os mais experientes, oferecemos um
+                                            espaço projetado para melhorar a resistência cardiovascular e proporcionar um
+                                            treino refrescante de baixo impacto.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="service-wrap">
-                                        <h6><i class="far fa-check me-2"></i> Expertise and Experience:</h6>
-                                        <p>We have a team of highly qualified and experienced fitness professionals who are dedicated to helping you...</p>
+                                        <h6><i class="far fa-check me-2"></i>Lutas:</h6>
+                                        <p>Se sua paixão é a luta, oferecemos uma variedade de modalidades, desde boxe até
+                                            artes marciais mistas (MMA). Nossos treinadores experientes criam um ambiente
+                                            seguro para aprendizado e aprimoramento, independentemente do seu nível de
+                                            experiência.</p>
                                     </div>
                                 </div>
                             </div>
-                            <p class="mt-25 mb-50">We offer a wide range of fitness services and programs to cater to different fitness levels, interests, and goals. Whether you're looking for personal training, group fitness classes, specialized workouts, or nutritional guidance, we have options to suit your needs.</p>
-                            <h3 class="page-subtitle mb-0">Why Choose Us?</h3>
+                            <p class="mt-25 mb-50">Encontre equilíbrio entre corpo e mente em nossas aulas de meditação.
+                                Guiados por instrutores especializados, explore práticas de mindfulness e técnicas de
+                                relaxamento em um ambiente tranquilo e acolhedor, proporcionando benefícios significativos
+                                para sua saúde mental e bem-estar global.</p>
+                            <h3 class="page-subtitle mb-0">Todas nossas modalidades são:</h3>
                             <div class="service-page-list checklist mb-50" data-bg-src="img/service-details1-2.png">
                                 <ul>
-                                    <li><i class="far fa-check-circle"></i>Design workout program.</li>
-                                    <li><i class="far fa-check-circle"></i>Progressive overload.</li>
-                                    <li><i class="far fa-check-circle"></i>Focus on proper form.</li>
-                                    <li><i class="far fa-check-circle"></i>Be consistent with training.</li>
-                                    <li><i class="far fa-check-circle"></i>Adjust calorie intake as needed.</li>
+                                    <li><i class="far fa-check-circle"></i>Musculação.</li>
+                                    <li><i class="far fa-check-circle"></i>Powerlifiting.</li>
+                                    <li><i class="far fa-check-circle"></i>Natação.</li>
+                                    <li><i class="far fa-check-circle"></i>Lutas em geral.</li>
+                                    <li><i class="far fa-check-circle"></i>Meditação.</li>
                                 </ul>
                             </div>
                             <div class="accordion-area mb-30 accordion" id="faqAccordion">
 
                                 <div class="accordion-card style2 active">
                                     <div class="accordion-header" id="collapse-item-1">
-                                        <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1"> What are your gym's operating hours?</button>
+                                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse-1" aria-expanded="true"
+                                            aria-controls="collapse-1">Quais são as modalidades oferecidas pela
+                                            academia?</button>
                                     </div>
-                                    <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
+                                    <div id="collapse-1" class="accordion-collapse collapse show"
+                                        aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
                                         <div class="accordion-body">
-                                            <p class="faq-text">Progressively communicate flexible human capital with best-of-breed schemas. Completely develop 2.0 infrastructures via bleeding-edge opportunities. Completely initiate world-class leadership skills via fully tested applications. </p>
+                                            <p class="faq-text">Oferecemos uma variedade de modalidades, incluindo
+                                                musculação, natação, powerlifting, meditação e lutas em geral, como boxe e
+                                                artes marciais mistas (MMA)</p>
                                         </div>
                                     </div>
                                 </div>
@@ -83,11 +107,16 @@
 
                                 <div class="accordion-card style2">
                                     <div class="accordion-header" id="collapse-item-2">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2"> What amenities and facilities does your gym offer?</button>
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                                            Como posso me inscrever na academia?</button>
                                     </div>
-                                    <div id="collapse-2" class="accordion-collapse collapse " aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
+                                    <div id="collapse-2" class="accordion-collapse collapse "
+                                        aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
                                         <div class="accordion-body">
-                                            <p class="faq-text">Progressively communicate flexible human capital with best-of-breed schemas. Completely develop 2.0 infrastructures via bleeding-edge opportunities. Completely initiate world-class leadership skills via fully tested applications. </p>
+                                            <p class="faq-text">A inscrição pode ser feita pessoalmente em nossa recepção,
+                                                onde nossa equipe terá prazer em orientá-lo no processo. Também oferecemos a
+                                                opção de inscrição online em nosso site para maior comodidade.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -95,11 +124,17 @@
 
                                 <div class="accordion-card style2">
                                     <div class="accordion-header" id="collapse-item-3">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3"> Do you provide personal training services?</button>
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse-3" aria-expanded="false"
+                                            aria-controls="collapse-3">Quais são os horários de funcionamento da
+                                            academia?</button>
                                     </div>
-                                    <div id="collapse-3" class="accordion-collapse collapse " aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
+                                    <div id="collapse-3" class="accordion-collapse collapse "
+                                        aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
                                         <div class="accordion-body">
-                                            <p class="faq-text">Progressively communicate flexible human capital with best-of-breed schemas. Completely develop 2.0 infrastructures via bleeding-edge opportunities. Completely initiate world-class leadership skills via fully tested applications. </p>
+                                            <p class="faq-text">Estamos abertos de segunda a sexta, das 6h às 22h, e aos
+                                                sábados, das 8h às 18h. Estamos fechados aos domingos para manutenção e
+                                                descanso.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -110,39 +145,39 @@
                 <div class="col-xxl-4 col-lg-5">
                     <aside class="sidebar-area">
                         <div class="widget widget_categories">
-                            <h3 class="widget_title">All Services</h3>
+                            <h3 class="widget_title">Todas as modalidades</h3>
                             <ul>
                                 <li>
-                                    <a href="blog.html"><i class="fa-solid fa-arrow-right"></i>Gym Fitness Class</a>
+                                    <a href="{{ url('modalidades/musculacao') }}"><i class="fa-solid fa-arrow-right"></i>Musculação</a>
                                 </li>
                                 <li>
-                                    <a href="blog.html"><i class="fa-solid fa-arrow-right"></i>Power Lifting Class</a>
+                                    <a href="{{ url('modalidades/peso') }}"><i class="fa-solid fa-arrow-right"></i>PowerLifting</a>
                                 </li>
                                 <li>
-                                    <a href="blog.html"><i class="fa-solid fa-arrow-right"></i>Body Building</a>
+                                    <a href="{{ url('modalidades/natacao') }}"><i class="fa-solid fa-arrow-right"></i>Natação</a>
                                 </li>
                                 <li>
-                                    <a href="blog.html"><i class="fa-solid fa-arrow-right"></i>Boxing Class</a>
+                                    <a href="{{ url('modalidades/meditacao') }}"><i class="fa-solid fa-arrow-right"></i>Meditação</a>
                                 </li>
                                 <li>
-                                    <a href="blog.html"><i class="fa-solid fa-arrow-right"></i>Meditation Class</a>
+                                    <a href="{{ url('modalidades/lutas') }}"><i class="fa-solid fa-arrow-right"></i>Lutas em geral</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="widget widget_schedule">
-                            <h3 class="widget_title">Working Hours</h3>
+                            <h3 class="widget_title">Horário de atendimento</h3>
                             <ul>
                                 <li>
                                     <i class="far fa-clock"></i>
-                                    Monday – Friday 1.00 – 2:00 pm
+                                    Segunda – Sexta 07:00 – 21:00
                                 </li>
                                 <li>
                                     <i class="far fa-clock"></i>
-                                    Saturday 8.00 – 12:00 pm
+                                    Sábado 08:00 – 15:00
                                 </li>
                                 <li class="unavailable">
                                     <i class="far fa-clock"></i>
-                                    Sunday closed
+                                    Domingo é fechado
                                 </li>
                             </ul>
                         </div>
@@ -153,25 +188,24 @@
     </div>
 
     <!--==============================
-    Cta Area
-    ==============================-->
+        Cta Area
+        ==============================-->
     <section class="cta-area space" data-bg-src="img/cta-bg1.png">
         <div class="container">
             <div class="row justify-content-lg-end justify-content-center">
                 <div class="col-xl-6 col-lg-8 col-md-10">
                     <div class="cta-wrap text-center text-lg-start">
                         <div class="title-area">
-                            <span class="sub-title">Make An Appointment</span>
-                            <h2 class="sec-title text-white">Get a Free Consultancy
-                                Right Now Here!</h2>
+                            <span class="sub-title">Marque uma consulta</span>
+                            <h2 class="sec-title text-white">Obtenha uma consultoria gratuita agora mesmo aqui!
                         </div>
                         <div class="btn-wrap mt-40">
-                            <a href="about.html" class="btn style2">Make Appointment</a>
+                            <a href="about.html" class="btn style2">Marque uma consulta</a>
                             <div class="about-info-wrap style3">
                                 <div class="icon"><i class="fas fa-phone-volume"></i></div>
                                 <div class="details">
-                                    <p class="about-info-title text-white">Need Help?</p>
-                                    <a class="about-info-link" href="tel:+25825692582">(+258) 2569 2582</a>
+                                    <p class="about-info-title text-white">Precisa de ajuda?</p>
+                                    <a class="about-info-link" href="tel:+25825692582">(11) 99999-9999</a>
                                 </div>
                             </div>
                         </div>
@@ -181,43 +215,43 @@
         </div>
     </section>
 
-      <!--==============================
-            Footer Area
-        ==============================-->
-        <div class="footer-wrapper footer-layout1" data-bg-src="img/footer-1-bg.png">
-            <div class="container">
-                <div class="contact-card">
-                    <div class="info-card">
-                        <div class="info-card_icon">
-                            <i class="fas fa-location-dot"></i>
-                        </div>
-                        <div class="info-card_content">
-                            <p class="info-card_text">Localização</p>
-                            <a href="https://www.google.com/maps" class="info-card_link">Marechal Tito, 1500</a>
-                        </div>
+    <!--==============================
+                Footer Area
+            ==============================-->
+    <div class="footer-wrapper footer-layout1" data-bg-src="img/footer-1-bg.png">
+        <div class="container">
+            <div class="contact-card">
+                <div class="info-card">
+                    <div class="info-card_icon">
+                        <i class="fas fa-location-dot"></i>
                     </div>
-                    <div class="info-card">
-                        <div class="info-card_icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="info-card_content">
-                            <p class="info-card_text">endereço de email</p>
-                            <a href="mailto:health@Fitmas.com" class="info-card_link">contato@VivaBem.com</a>
-                        </div>
-                    </div>
-                    <div class="info-card">
-                        <div class="info-card_icon">
-                            <i class="fas fa-phone-volume"></i>
-                        </div>
-                        <div class="info-card_content">
-                            <p class="info-card_text">Telefone</p>
-                            <a href="tel:+18925382145" class="info-card_link">(11) 99999-9999</a>
-                        </div>
+                    <div class="info-card_content">
+                        <p class="info-card_text">Localização</p>
+                        <a href="https://www.google.com/maps" class="info-card_link">Marechal Tito, 1500</a>
                     </div>
                 </div>
-
+                <div class="info-card">
+                    <div class="info-card_icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="info-card_content">
+                        <p class="info-card_text">endereço de email</p>
+                        <a href="mailto:health@Fitmas.com" class="info-card_link">contato@VivaBem.com</a>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-card_icon">
+                        <i class="fas fa-phone-volume"></i>
+                    </div>
+                    <div class="info-card_content">
+                        <p class="info-card_text">Telefone</p>
+                        <a href="tel:+18925382145" class="info-card_link">(11) 99999-9999</a>
+                    </div>
+                </div>
             </div>
+
         </div>
+    </div>
 
 
 @endsection

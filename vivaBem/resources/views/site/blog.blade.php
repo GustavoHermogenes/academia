@@ -191,17 +191,17 @@
                         <div class="widget widget_gallery">
                             <h3 class="widget_title">Galeria de Projetos</h3>
                             <div class="insta-feed">
-                                <a href="blog.html"><img src="{{ asset('img/widget/widget1-1.png') }}" alt="img">
+                                <a href="blog.html"><img src="{{ asset('img/widget1-1.png') }}" alt="img">
                                 <i class="fab fa-instagram"></i></a>
-                                <a href="blog.html"><img src="{{ asset('img/widget/widget1-2.png') }}" alt="img">
+                                <a href="blog.html"><img src="{{ asset('img/widget1-2.png') }}" alt="img">
                                 <i class="fab fa-instagram"></i></a>
-                                <a href="blog.html"><img src="{{ asset('img/widget/widget1-3.png') }}" alt="img">
+                                <a href="blog.html"><img src="{{ asset('img/widget1-3.png') }}" alt="img">
                                 <i class="fab fa-instagram"></i></a>
-                                <a href="blog.html"><img src="{{ asset('img/widget/widget1-4.png') }}" alt="img">
+                                <a href="blog.html"><img src="{{ asset('img/widget1-4.png') }}" alt="img">
                                 <i class="fab fa-instagram"></i></a>
-                                <a href="blog.html"><img src="{{ asset('img/widget/widget1-5.png') }}" alt="img">
+                                <a href="blog.html"><img src="{{ asset('img/widget1-5.png') }}" alt="img">
                                 <i class="fab fa-instagram"></i></a>
-                                <a href="blog.html"><img src="{{ asset('img/widget/widget1-6.png') }}" alt="img">
+                                <a href="blog.html"><img src="{{ asset('img/widget1-6.png') }}" alt="img">
                                     <i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
