@@ -29,7 +29,7 @@
                                 <span class="hero-subtitle fw-semibold" data-ani="slideinup" data-ani-delay="0.2s">Com a
                                     VivaBem</span>
                                 <div class="btn-group" data-ani="slideinup" data-ani-delay="0.3s">
-                                    <a href="contact.html" class="btn style-r0 style2">Marque uma consulta</a>
+                                    <a href="{{ url('contato') }}" class="btn style-r0 style2">Marque uma consulta</a>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@
                                 <span class="hero-subtitle fw-semibold" data-ani="slideinup" data-ani-delay="0.2s">Com a
                                     VivaBem</span>
                                 <div class="btn-group" data-ani="slideinup" data-ani-delay="0.3s">
-                                    <a href="contact.html" class="btn style-r0 style2">Marque uma Consuta</a>
+                                    <a href="{{ url('contato') }}" class="btn style-r0 style2">Marque uma Consuta</a>
                                 </div>
                             </div>
                         </div>
@@ -190,7 +190,7 @@
                                     sucesso. Seja iniciante ansioso ou veterano em busca de desafios, aqui seus objetivos se
                                     realizam
                                 </p>
-                                <a href="service-details.html" class="link-btn" tabindex="0">Saiba Mais <i
+                                <a href="{{ url('contato') }}" class="link-btn" tabindex="0">Saiba Mais <i
                                         class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -207,7 +207,7 @@
                                     sucesso. Seja iniciante ansioso ou veterano em busca de desafios, aqui seus objetivos se
                                     realizam
                                 </p>
-                                <a href="service-details.html" class="link-btn" tabindex="0">Saiba Mais <i
+                                <a href="{{ url('contato') }}" class="link-btn" tabindex="0">Saiba Mais <i
                                         class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -225,7 +225,7 @@
                                     sucesso. Seja iniciante ansioso ou veterano em busca de desafios, aqui seus objetivos se
                                     realizam
                                 </p>
-                                <a href="service-details.html" class="link-btn" tabindex="0">Saiba Mais <i
+                                <a href="{{ url('contato') }}" class="link-btn" tabindex="0">Saiba Mais <i
                                         class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -243,7 +243,7 @@
                                     sucesso. Seja iniciante ansioso ou veterano em busca de desafios, aqui seus objetivos se
                                     realizam
                                 </p>
-                                <a href="service-details.html" class="link-btn" tabindex="0">Saiba Mais <i
+                                <a href="{{ url('contato') }}" class="link-btn" tabindex="0">Saiba Mais <i
                                         class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -262,7 +262,7 @@
                                     sucesso. Seja iniciante ansioso ou veterano em busca de desafios, aqui seus objetivos se
                                     realizam
                                 </p>
-                                <a href="service-details.html" class="link-btn" tabindex="0">Saiba Mais <i
+                                <a href="{{ url('contato') }}" class="link-btn" tabindex="0">Saiba Mais <i
                                         class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -279,7 +279,7 @@
                                     sucesso. Seja iniciante ansioso ou veterano em busca de desafios, aqui seus objetivos se
                                     realizam
                                 </p>
-                                <a href="service-details.html" class="link-btn" tabindex="0">Saiba Mais <i
+                                <a href="{{ url('contato') }}" class="link-btn" tabindex="0">Saiba Mais <i
                                         class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -297,7 +297,7 @@
                                     sucesso. Seja iniciante ansioso ou veterano em busca de desafios, aqui seus objetivos se
                                     realizam
                                 </p>
-                                <a href="service-details.html" class="link-btn" tabindex="0">Saiba Mais <i
+                                <a href="{{ url('contato') }}" class="link-btn" tabindex="0">Saiba Mais <i
                                         class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -315,7 +315,7 @@
                                     sucesso. Seja iniciante ansioso ou veterano em busca de desafios, aqui seus objetivos se
                                     realizam
                                 </p>
-                                <a href="service-details.html" class="link-btn" tabindex="0">Saiba Mais <i
+                                <a href="{{ url('contato') }}" class="link-btn" tabindex="0">Saiba Mais <i
                                         class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -387,7 +387,7 @@
                             </div>
                         </div>
                         <div class="btn-wrap mt-40">
-                            <a href="about.html" class="btn">Marque uma visita</a>
+                            <a href="{{ url('contato') }}" class="btn">Marque uma visita</a>
                             <div class="about-info-wrap">
                                 <div class="icon"><i class="fas fa-phone-volume"></i></div>
                                 <div class="details">
@@ -1351,24 +1351,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xl-auto counter-card_wrap">
-                        <div class="counter-card style2">
-                            <div class="counter-card_icon">
-                                <img src="{{ asset('img/counter-icon_2-4.svg') }}" alt="icon">
-                            </div>
-                            <div class="media-body">
-                                <h2 class="counter-card_number"><span class="counter-number">153</span>+</h2>
-                                <p class="counter-card_text">Toneladas de colheita</p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
         <div class="ad-slider">
             <div class="global-carousel" data-autoplay-speed="1" data-speed="10000">
-                <h2 class="ad-slider_title">VivaBem <span>FITNESS</span> CENTER </h2>
-                <h2 class="ad-slider_title">VivaBem <span>FITNESS</span> CENTER </h2>
+                <h2 class="ad-slider_title">VivaBem <span>CENTER</span></h2>
+                <h2 class="ad-slider_title">VivaBem <span>CENTER</span></h2>
             </div>
         </div>
     </div>
@@ -1426,7 +1415,7 @@
                             </div>
                         </div>
                         <div class="btn-wrap">
-                            <a class="btn style-r0" href="service-details.html">Saiba Mais</a>
+                            <a class="btn style-r0" href="{{ url('contato') }}">Saiba Mais</a>
                             <a class="btn btn-border style-r0" href="service-details.html">Veja todos os serviços</a>
                         </div>
                     </div>
@@ -1451,7 +1440,7 @@
                                     valiosas, dicas e inspiração para ajudá-lo em sua jornada para uma vida mais saudável...
                                 </p>
                             </div>
-                            <a class="btn style-r0" href="blog.html">Veja Mais</a>
+                            <a class="btn style-r0" href="{{ url('blog') }}">Veja Mais</a>
                         </div>
                     </div>
                 </div>
@@ -1465,9 +1454,9 @@
                                 <a href="blog.html">15 de junho de 2023</a>
                                 <a href="blog.html">Compras</a>
                             </div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Dominando as máquinas: um guia
+                            <h3 class="blog-title box-title"><a href="{{ url('blog') }}">Dominando as máquinas: um guia
                                     para iniciantes em equipamentos de ginástica</a></h3>
-                            <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i> Saiba
+                            <a href="{{ url('blog') }}" class="link-btn style2"><i class="fas fa-arrow-right"></i> Saiba
                                 mais</a>
                         </div>
                     </div>
@@ -1480,9 +1469,9 @@
                                 <a href="blog.html">15 de junho de 2023</a>
                                 <a href="blog.html">Compras</a>
                             </div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Dominando as máquinas: um guia
+                            <h3 class="blog-title box-title"><a href="{{ url('blog') }}">Dominando as máquinas: um guia
                                     para iniciantes em equipamentos de ginástica</a></h3>
-                            <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba
+                            <a href="{{ url('blog') }}" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba
                                 mais</a>
                         </div>
                     </div>
@@ -1495,9 +1484,9 @@
                                 <a href="blog.html">15 de junho de 2023</a>
                                 <a href="blog.html">Compras</a>
                             </div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Dominando as máquinas: um guia
+                            <h3 class="blog-title box-title"><a href="{{ url('blog') }}">Dominando as máquinas: um guia
                                     para iniciantes em equipamentos de ginástica</a></h3>
-                            <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba
+                            <a href="{{ url('blog') }}" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba
                                 Mais</a>
                         </div>
                     </div>

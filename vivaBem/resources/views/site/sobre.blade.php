@@ -15,7 +15,7 @@
                     <div class="breadcumb-content">
                         <h1 class="breadcumb-title">Sobre nós</h1>
                         <ul class="breadcumb-menu">
-                            <li><a href="index.html">Início</a></li>
+                            <li><a href="{{ url('/') }}">INÍCIO</a></li>
                             <li class="active">SOBRE</li>
                         </ul>
                     </div>
@@ -84,7 +84,7 @@
                             </div>
                         </div>
                         <div class="btn-wrap mt-40">
-                            <a href="about.html" class="btn">Marque uma visita</a>
+                            <a href="{{ url('contato') }}" class="btn">Marque uma visita</a>
                             <div class="about-info-wrap">
                                 <div class="icon"><i class="fas fa-phone-volume"></i></div>
                                 <div class="details">
@@ -117,9 +117,9 @@
                             <img src="{{ asset('img/service-icon_2-1.svg') }}" alt="img">
                         </div>
                         <div class="service-card_content">
-                            <h4 class="service-card_title h5"><a href="service-details.html">Musculação</a></h4>
+                            <h4 class="service-card_title h5"><a href="{{ url('modalidade') }}">Musculação</a></h4>
                             <p class="service-card_text">Treino de alta intensidade que alternam entre rajadas intensas de exercício e curtos períodos de recuperação...</p>
-                            <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i>Leia mais</a>
+                            <a href="{{ url('modalidade') }}" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i>Leia mais</a>
                         </div>
                     </div>
                 </div>
@@ -129,9 +129,9 @@
                             <img src="{{ asset('img/service-icon_2-2.svg') }}" alt="img">
                         </div>
                         <div class="service-card_content">
-                            <h4 class="service-card_title h5"><a href="service-details.html">Powerlifting</a></h4>
+                            <h4 class="service-card_title h5"><a href="{{ url('modalidade') }}">Powerlifting</a></h4>
                             <p class="service-card_text">Treino de alta intensidade que alternam entre rajadas intensas de exercício e curtos períodos de recuperação...</p>
-                            <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i>Leia mais</a>
+                            <a href="{{ url('modalidade') }}" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i>Leia mais</a>
                         </div>
                     </div>
                 </div>
@@ -141,9 +141,9 @@
                             <img src="{{ asset('img/service-icon_2-3.svg') }}" alt="img">
                         </div>
                         <div class="service-card_content">
-                            <h4 class="service-card_title h5"><a href="service-details.html">Aula de ginástica</a></h4>
+                            <h4 class="service-card_title h5"><a href="{{ url('modalidade') }}">Aula de ginástica</a></h4>
                             <p class="service-card_text">Treino de alta intensidade que alternam entre rajadas intensas de exercício e curtos períodos de recuperação...</p>
-                            <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i>Leia mais</a>
+                            <a href="{{ url('modalidade') }}" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i>Leia mais</a>
                         </div>
                     </div>
                 </div>
@@ -153,9 +153,9 @@
                             <img src="{{ asset('img/service-icon_2-1.svg') }}" alt="img">
                         </div>
                         <div class="service-card_content">
-                            <h4 class="service-card_title h5"><a href="service-details.html">Musculação</a></h4>
+                            <h4 class="service-card_title h5"><a href="{{ url('modalidade') }}">Musculação</a></h4>
                             <p class="service-card_text">Treino de alta intensidade que alternam entre rajadas intensas de exercício e curtos períodos de recuperação...</p>
-                            <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i>Leia mais</a>
+                            <a href="{{ url('modalidade') }}" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i>Leia mais</a>
                         </div>
                     </div>
                 </div>
@@ -165,9 +165,9 @@
                             <img src="{{ asset('img/service-icon_2-2.svg') }}" alt="img">
                         </div>
                         <div class="service-card_content">
-                            <h4 class="service-card_title h5"><a href="service-details.html">Powerlifting</a></h4>
+                            <h4 class="service-card_title h5"><a href="{{ url('modalidade') }}">Powerlifting</a></h4>
                             <p class="service-card_text">Treino de alta intensidade que alternam entre rajadas intensas de exercício e curtos períodos de recuperação...</p>
-                            <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i>Leia mais</a>
+                            <a href="{{ url('modalidade') }}" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i>Leia mais</a>
                         </div>
                     </div>
                 </div>
@@ -177,9 +177,9 @@
                             <img src="{{ asset('img/service-icon_2-3.svg') }}" alt="img">
                         </div>
                         <div class="service-card_content">
-                            <h4 class="service-card_title h5"><a href="service-details.html">Treino de peso</a></h4>
+                            <h4 class="service-card_title h5"><a href="{{ url('modalidade') }}">Treino de peso</a></h4>
                             <p class="service-card_text">Treino de alta intensidade que alternam entre rajadas intensas de exercício e curtos períodos de recuperação...</p>
-                            <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i>Leia mais</a>
+                            <a href="{{ url('modalidade') }}" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i>Leia mais</a>
                         </div>
                     </div>
                 </div>
@@ -200,7 +200,7 @@
                             <h2 class="sec-title text-white">Obtenha uma consultoria gratuita agora mesmo aqui!
                         </div>
                         <div class="btn-wrap mt-40">
-                            <a href="about.html" class="btn style2">Marque uma consulta</a>
+                            <a href="{{ url('contato') }}" class="btn style2">Marque uma consulta</a>
                             <div class="about-info-wrap style3">
                                 <div class="icon"><i class="fas fa-phone-volume"></i></div>
                                 <div class="details">

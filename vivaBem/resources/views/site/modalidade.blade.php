@@ -15,7 +15,7 @@
                     <div class="breadcumb-content">
                         <h1 class="breadcumb-title">Modalidades</h1>
                         <ul class="breadcumb-menu">
-                            <li><a href="index.html">INÍCIO</a></li>
+                            <li><a href="{{ url('/') }}">INÍCIO</a></li>
                             <li class="active">Modalidades</li>
                         </ul>
                     </div>
@@ -200,7 +200,7 @@
                             <h2 class="sec-title text-white">Obtenha uma consultoria gratuita agora mesmo aqui!
                         </div>
                         <div class="btn-wrap mt-40">
-                            <a href="about.html" class="btn style2">Marque uma consulta</a>
+                            <a href="{{ url('contato') }}" class="btn style2">Marque uma consulta</a>
                             <div class="about-info-wrap style3">
                                 <div class="icon"><i class="fas fa-phone-volume"></i></div>
                                 <div class="details">

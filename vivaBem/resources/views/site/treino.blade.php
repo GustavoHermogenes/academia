@@ -12,7 +12,7 @@
                     <div class="breadcumb-content">
                         <h1 class="breadcumb-title">Treino e Planos</h1>
                         <ul class="breadcumb-menu">
-                            <li><a href="index.html">Início</a></li>
+                            <li><a href="{{ url('/') }}">INÍCIO</a></li>
                             <li class="active">TREINO E PLANOS</li>
                         </ul>
                     </div>
@@ -53,7 +53,7 @@
                                 <li><i class="far fa-check-circle"></i>Estacionamento grátis</li>
                             </ul>
                         </div>
-                        <a class="btn style2" href="pricing.html">Escolha este plano</a>
+                        <a class="btn style2" href="{{ url('contato') }}">Escolha este plano</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -77,7 +77,7 @@
                                 <li><i class="far fa-check-circle"></i>Estacionamento grátis</li>
                             </ul>
                         </div>
-                        <a class="btn style2" href="pricing.html">Escolha este plano</a>
+                        <a class="btn style2" href="{{ url('contato') }}">Escolha este plano</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -101,7 +101,7 @@
                                 <li><i class="far fa-check-circle"></i>Estacionamento grátis</li>
                             </ul>
                         </div>
-                        <a class="btn style2" href="pricing.html">Escolha este plano</a>
+                        <a class="btn style2" href="{{ url('contato') }}">Escolha este plano</a>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@
                             <h2 class="sec-title text-white">Obtenha uma consultoria gratuita agora mesmo aqui!</h2>
                         </div>
                         <div class="btn-wrap mt-40">
-                            <a href="about.html" class="btn style2">Marque uma consulta</a>
+                            <a href="{{ url('contato') }}" class="btn style2">Marque uma consulta</a>
                             <div class="about-info-wrap style3">
                                 <div class="icon"><i class="fas fa-phone-volume"></i></div>
                                 <div class="details">

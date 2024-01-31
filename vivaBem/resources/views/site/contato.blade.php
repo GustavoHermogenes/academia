@@ -4,9 +4,9 @@
 
 @section('conteudo')
 
-<!--==============================
-    Breadcumb
-    ============================== -->
+    <!--==============================
+                        Breadcumb
+                        ============================== -->
     <div class="breadcumb-wrapper" data-bg-src="{{ asset('img/breadcrumb-bg.png') }}">
         <!-- bg animated image/ -->
         <div class="container">
@@ -15,7 +15,7 @@
                     <div class="breadcumb-content">
                         <h1 class="breadcumb-title">Entre em contato</h1>
                         <ul class="breadcumb-menu">
-                            <li><a href="index.html">Início</a></li>
+                            <li><a href="{{ url('/') }}">INÍCIO</a></li>
                             <li class="active">CONTATO</li>
                         </ul>
                     </div>
@@ -26,8 +26,8 @@
     </div>
 
     <!--==============================
-        Contact Area
-    ==============================-->
+                            Contact Area
+                        ==============================-->
     <div class="contact-area space bg-smoke2">
         <div class="container">
             <div class="row gy-4 justify-content-center">
@@ -69,7 +69,7 @@
     </div>
 
     <div class="map-sec2">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7310056272386!2d89.2286059153658!3d24.00527418490799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9b97badc6151%3A0x30b048c9fb2129bc!2s!5e0!3m2!1sen!2sbd!4v1651028958211!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29272.202621777888!2d-46.46210909415662!3d-23.495597199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63dda7be6fb9%3A0xa74e7d5a53104311!2sSenac%20S%C3%A3o%20Miguel%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1706034661403!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            allowfullscreen="" loading="lazy"></iframe>
     </div>
 
     <div class="container">
@@ -86,36 +86,68 @@
                             <span class="sub-title">Entre em contato</span>
                             <h2 class="sec-title">Envie uma mensagem</h2>
                         </div>
-                        <form action="mail.php" method="POST" class="contact-form ajax-contact">
+
+                        <form action="{{ Route('contato.enviar') }}" method="POST" class="contact-form" id="formContato">
+
+                            @csrf
+
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control style-white" name="name" id="name" placeholder="Seu nome">
+                                        <input type="text" class="form-control style-white" name="nomeContato" id="nomeContato"
+                                            placeholder="Seu nome" value="{{ old('nomeContato') }}">
                                         <i class="far fa-user"></i>
+                                        <div id="nomeContatoError" class="error-mensagem"></div>
                                     </div>
                                 </div>
+
+
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control style-white" name="email" id="email" placeholder="Endereço de email">
+                                        <input type="text" class="form-control style-white" name="emailContato" id="emailContato"
+                                            placeholder="Endereço de email" value="{{ old('emailContato') }}">
                                         <i class="far fa-envelope"></i>
+                                        <div id="emailContatoError" class="error-mensagem"></div>
+
                                     </div>
                                 </div>
+
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control style-white" name="foneContato" id="foneContato"
+                                            placeholder="Digite seu Telefone" value="{{ old('foneContato') }}">
+                                        <i class="far fa-phone"></i>
+                                        <div id="foneContatoError" class="error-mensagem"></div>
+
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-lg-6"">
+                                    <select name="assuntoContato" id="assuntoContato" class="form-select style-white">
+                                        <option value="{{ old('assuntoContato') }}" disabled="" selected=""
+                                            hidden="">Selecione o assunto</option>
+                                        <option value="Musculação">Musculação</option>
+                                        <option value="Powerlifting">Powerlifting</option>
+                                        <option value="Meditação">Meditação</option>
+                                        <option value="Lutas">Lutas</option>
+                                    </select>
+                                    <i class="fa-solid fa-arrow-down-long"></i>
+                                    <div id="assuntoContatoError" class="error-mensagem"></div>
+
+                                </div>
+
                             </div>
-                            <div class="form-group">
-                                <select name="subject" id="subject" class="form-select style-white">
-                                    <option value="" disabled="" selected="" hidden="">Selecione o assunto</option>
-                                    <option value="one">Musculação</option>
-                                    <option value="two">Powerlifting</option>
-                                    <option value="three">Meditação</option>
-                                    <option value="four">Lutas</option>
-                                </select>
-                            </div>
+
                             <div class="form-group col-12">
-                                <textarea placeholder="Digite sua mensagem" id="contactForm" class="form-control style-white"></textarea>
+                                <textarea placeholder="Digite sua mensagem" id="mensContato" class="form-control style-white">{{ old('mensContato') }}</textarea>
+                                <div id="mensContatoError" class="error-mensagem"></div>
+
                             </div>
 
                             <div class="form-btn col-12">
-                                <button class="btn">Envie sua mensagem</button>
+                                <input type="submit" value="Enviar via e-mail" class="btn-enviar" onclick="formContato(event)">
+                                <div id="contatoMensagem" class="msgContato"></div>
                             </div>
                         </form>
                     </div>

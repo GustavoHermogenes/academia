@@ -34,9 +34,9 @@ Blog Area
                         <img src="../img/natacao1.jpeg" alt="blog image">
                     </div>
                     <div class="blog-content">
-                        <h3 class="blog-title"><a href="blog-details.html">Fluidez Aquática: Programa de Natação Excepcional na VivaBem</a></h3>
+                        <h3 class="blog-title"><a href="#">Fluidez Aquática: Programa de Natação Excepcional na VivaBem</a></h3>
                         <p>Mergulhe em nossa programação excepcional de natação na VivaBem, onde a fluidez aquática se torna uma experiência única. Seja você um iniciante ou um nadador experiente, nossa abordagem focada em técnica, resistência e prazer na água proporcionará uma jornada revigorante. Descubra a sensação de deslizar pela água e liberte o nadador dentro de você.</p>
-                        <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
+                        <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
                     </div>
                 </div>
                 <div class="blog-card style4">
@@ -44,9 +44,9 @@ Blog Area
                         <img src="../img/natacao2.jpeg" alt="blog image">
                     </div>
                     <div class="blog-content">
-                        <h3 class="blog-title"><a href="blog-details.html">Nade com Confiança: A Arte da Natação na VivaBem</a></h3>
+                        <h3 class="blog-title"><a href="#">Nade com Confiança: A Arte da Natação na VivaBem</a></h3>
                         <p>Desenvolva confiança na água com a arte da natação na VivaBem. Nossa equipe especializada está pronta para guiá-lo em uma jornada aquática, aprimorando sua técnica, construindo resistência e despertando a alegria de nadar. Seja parte de uma comunidade que celebra o prazer de desafiar a gravidade e explorar as profundezas do seu potencial na natação.</p>
-                        <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
+                        <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
                     </div>
                 </div>
                 <div class="blog-card style4">
@@ -54,9 +54,9 @@ Blog Area
                         <img src="../img/natacao3.jpeg" alt="blog image">
                     </div>
                     <div class="blog-content">
-                        <h3 class="blog-title"><a href="blog-details.html">Transforme Seu Estilo de Natação: Programa Personalizado na VivaBem</a></h3>
+                        <h3 class="blog-title"><a href="#">Transforme Seu Estilo de Natação: Programa Personalizado na VivaBem</a></h3>
                         <p> Transforme seu estilo de natação com nosso programa personalizado na VivaBem. Seja você um nadador recreativo ou um atleta competitivo, nossa abordagem adaptada atende às suas necessidades individuais. Descubra uma sensação renovada de liberdade na água, enquanto trabalha sua resistência, aprimora sua técnica e mergulha em um mundo de descobertas aquáticas. A revolução na natação começa aqui!</p>
-                        <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
+                        <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
                     </div>
                 </div>
                 <div class="pagination">
@@ -83,26 +83,26 @@ Blog Area
                         <div class="recent-post-wrap">
                             <div class="recent-post">
                                 <div class="media-img">
-                                    <a href="blog-details.html"><img src="../img/recent-post1.png" alt="Blog Image"></a>
+                                    <a href="#"><img src="../img/recent-post1.png" alt="Blog Image"></a>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Estratégias essenciais para maximizar seu treino</a></h4>
+                                    <h4 class="post-title"><a class="text-inherit" href="#">Estratégias essenciais para maximizar seu treino</a></h4>
                                 </div>
                             </div>
                             <div class="recent-post">
                                 <div class="media-img">
-                                    <a href="blog-details.html"><img src="../img/recent-post2.png" alt="Blog Image"></a>
+                                    <a href="#"><img src="../img/recent-post2.png" alt="Blog Image"></a>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Treinamento funcional na sua rotina...</a></h4>
+                                    <h4 class="post-title"><a class="text-inherit" href="#">Treinamento funcional na sua rotina...</a></h4>
                                 </div>
                             </div>
                             <div class="recent-post">
                                 <div class="media-img">
-                                    <a href="blog-details.html"><img src="../img/recent-post3.png" alt="Blog Image"></a>
+                                    <a href="#"><img src="../img/recent-post3.png" alt="Blog Image"></a>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="post-title"><a class="text-inherit" href="blog-details.html">
+                                    <h4 class="post-title"><a class="text-inherit" href="#">
                                         Conselhos sobre dicas de nutrição para frequentadores de academia</a></h4>
                                 </div>
                             </div>

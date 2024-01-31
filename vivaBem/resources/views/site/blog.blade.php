@@ -13,7 +13,7 @@
                     <div class="breadcumb-content">
                         <h1 class="breadcumb-title">Nossos Blogs</h1>
                         <ul class="breadcumb-menu">
-                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="{{ url('/') }}">INÍCIO</a></li>
                             <li class="active">Página do BLOG</li>
                         </ul>
                     </div>
@@ -37,8 +37,8 @@
                                 <a href="blog.html">15 de Junho de 2023</a>
                                 <a href="blog.html">COMPRAS</a>
                             </div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Dominando as máquinas: um guia para iniciantes em equipamentos de ginástica</a></h3>
-                            <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
+                            <h3 class="blog-title box-title"><a href="#">Dominando as máquinas: um guia para iniciantes em equipamentos de ginástica</a></h3>
+                            <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
                         </div>
                     </div>
                     <div class="blog-card style2">
@@ -50,8 +50,8 @@
                                 <a href="blog.html">15 de Junho de 2023</a>
                                 <a href="blog.html">COMPRAS</a>
                             </div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Dominando a academia: estratégias essenciais para maximizar seus treinos</a></h3>
-                            <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
+                            <h3 class="blog-title box-title"><a href="#">Dominando a academia: estratégias essenciais para maximizar seus treinos</a></h3>
+                            <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
                         </div>
                     </div>
                     <div class="blog-card style2">
@@ -63,8 +63,8 @@
                                 <a href="blog.html">15 de Junho de 2023</a>
                                 <a href="blog.html">COMPRAS</a>
                             </div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Quebrando a barreira do suor: aceite o desafio do condicionamento físico na Fitmas</a></h3>
-                            <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
+                            <h3 class="blog-title box-title"><a href="#">Quebrando a barreira do suor: aceite o desafio do condicionamento físico na Fitmas</a></h3>
+                            <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
                         </div>
                     </div>
                     <div class="blog-card style2">
@@ -76,9 +76,9 @@
                                 <a href="blog.html">15 de Junho de 2023</a>
                                 <a href="blog.html">COMPRAS</a>
                             </div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Abasteça sua jornada de condicionamento físico: dicas e conselhos nutricionais para frequentadores de academia
+                            <h3 class="blog-title box-title"><a href="#">Abasteça sua jornada de condicionamento físico: dicas e conselhos nutricionais para frequentadores de academia
                             </a></h3>
-                            <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
+                            <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
                         </div>
                     </div>
                     <div class="blog-card style2">
@@ -90,8 +90,8 @@
                                 <a href="blog.html">15 de Junho de 2023</a>
                                 <a href="blog.html">COMPRAS</a>
                             </div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Liberte o seu atleta interior: descubra o seu verdadeiro potencial no Fitmas</a></h3>
-                            <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
+                            <h3 class="blog-title box-title"><a href="#">Liberte o seu atleta interior: descubra o seu verdadeiro potencial no Fitmas</a></h3>
+                            <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
                         </div>
                     </div>
                     <div class="blog-card style2">
@@ -103,9 +103,9 @@
                                 <a href="blog.html">15 de Junho de 2023</a>
                                 <a href="blog.html">COMPRAS</a>
                             </div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Abasteça sua jornada de condicionamento físico: dicas e conselhos nutricionais para frequentadores de academia
+                            <h3 class="blog-title box-title"><a href="#">Abasteça sua jornada de condicionamento físico: dicas e conselhos nutricionais para frequentadores de academia
                             </a></h3>
-                            <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
+                            <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
                         </div>
                     </div>
                     <div class="pagination">
@@ -132,10 +132,10 @@
                             <div class="recent-post-wrap">
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="blog-details.html"><img src="{{ asset('img/recent-post1.png') }}" alt="Blog Image"></a>
+                                        <a href="#"><img src="{{ asset('img/recent-post1.png') }}" alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Estratégias Essenciais Para Maximizar Seu</a></h4>
+                                        <h4 class="post-title"><a class="text-inherit" href="#">Estratégias Essenciais Para Maximizar Seu</a></h4>
                                         <div class="recent-post-meta">
                                             <a href="blog.html">25 de junho de 2023</a>
                                         </div>
@@ -143,10 +143,10 @@
                                 </div>
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="blog-details.html"><img src="{{ asset('img/recent-post2.png') }}" alt="Blog Image"></a>
+                                        <a href="#"><img src="{{ asset('img/recent-post2.png') }}" alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">
+                                        <h4 class="post-title"><a class="text-inherit" href="#">
                                             Treinamento Funcional Na Sua Rotina...</a></h4>
                                         <div class="recent-post-meta">
                                             <a href="blog.html">25 de junho de 2023</a>
@@ -155,10 +155,10 @@
                                 </div>
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="blog-details.html"><img src="{{ asset('img/recent-post3.png') }}" alt="Blog Image"></a>
+                                        <a href="#"><img src="{{ asset('img/recent-post3.png') }}" alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Conselhos Sobre Dicas De Nutrição Para Frequentadores De Academia</a></h4>
+                                        <h4 class="post-title"><a class="text-inherit" href="#">Conselhos Sobre Dicas De Nutrição Para Frequentadores De Academia</a></h4>
                                         <div class="recent-post-meta">
                                             <a href="blog.html">25 de junho de 2023</a>
                                         </div>

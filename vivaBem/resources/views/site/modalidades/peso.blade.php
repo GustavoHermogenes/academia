@@ -34,9 +34,9 @@ Blog Area
                         <img src="../img/blog_s1_1.png" alt="blog image">
                     </div>
                     <div class="blog-content">
-                        <h3 class="blog-title"><a href="blog-details.html">Elevando Limites: Programa Intenso de Powerlifting na VivaBem</a></h3>
+                        <h3 class="blog-title"><a href="#">Elevando Limites: Programa Intenso de Powerlifting na VivaBem</a></h3>
                         <p> Quebre as barreiras do seu potencial com nosso programa de Powerlifting na VivaBem! Descubra a emoção de superar seus próprios limites enquanto desenvolve força bruta, resistência e técnica. Seja parte de uma comunidade dedicada a alcançar marcas pessoais e dominar a arte do Powerlifting. Prepare-se para elevar seus treinos a novos patamares!</p>
-                        <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
+                        <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
                     </div>
                 </div>
                 <div class="blog-card style4">
@@ -44,9 +44,9 @@ Blog Area
                         <img src="../img/blog_s1_2.png" alt="blog image">
                     </div>
                     <div class="blog-content">
-                        <h3 class="blog-title"><a href="blog-details.html">Força Pura: Desafie-se com o Powerlifting na VivaBem </a></h3>
+                        <h3 class="blog-title"><a href="#">Força Pura: Desafie-se com o Powerlifting na VivaBem </a></h3>
                         <p>Na VivaBem, acreditamos na força pura como um meio de conquistar seus objetivos. Em nosso programa de Powerlifting, não apenas levantamos pesos, mas também levantamos o espírito competitivo que existe dentro de você. Descubra como a disciplina, a técnica e a mentalidade certa podem transformar seus treinos em verdadeiros triunfos. Desafie-se e descubra a força que vai além dos pesos!</p>
-                        <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
+                        <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
                     </div>
                 </div>
                 <div class="blog-card style4">
@@ -54,9 +54,9 @@ Blog Area
                         <img src="../img/blog_s1_3.png" alt="blog image">
                     </div>
                     <div class="blog-content">
-                        <h3 class="blog-title"><a href="blog-details.html">Potência e Performance: Powerlifting para uma Vida Robusta na VivaBem</a></h3>
+                        <h3 class="blog-title"><a href="#">Potência e Performance: Powerlifting para uma Vida Robusta na VivaBem</a></h3>
                         <p>Transforme-se em uma força imparável com nosso programa de Powerlifting na VivaBem. Não se trata apenas de levantar pesos, mas de cultivar uma vida robusta e poderosa. Desenvolva não apenas força física, mas também mental, enquanto trabalha para superar seus próprios recordes. Entre para a elite do Powerlifting conosco e experimente uma revolução de potência e performance!</p>
-                        <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
+                        <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
                     </div>
                 </div>
                 <div class="pagination">
@@ -83,26 +83,26 @@ Blog Area
                         <div class="recent-post-wrap">
                             <div class="recent-post">
                                 <div class="media-img">
-                                    <a href="blog-details.html"><img src="../img/recent-post1.png" alt="Blog Image"></a>
+                                    <a href="#"><img src="../img/recent-post1.png" alt="Blog Image"></a>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Estratégias essenciais para maximizar seu treino</a></h4>
+                                    <h4 class="post-title"><a class="text-inherit" href="#">Estratégias essenciais para maximizar seu treino</a></h4>
                                 </div>
                             </div>
                             <div class="recent-post">
                                 <div class="media-img">
-                                    <a href="blog-details.html"><img src="../img/recent-post2.png" alt="Blog Image"></a>
+                                    <a href="#"><img src="../img/recent-post2.png" alt="Blog Image"></a>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Treinamento funcional na sua rotina...</a></h4>
+                                    <h4 class="post-title"><a class="text-inherit" href="#">Treinamento funcional na sua rotina...</a></h4>
                                 </div>
                             </div>
                             <div class="recent-post">
                                 <div class="media-img">
-                                    <a href="blog-details.html"><img src="../img/recent-post3.png" alt="Blog Image"></a>
+                                    <a href="#"><img src="../img/recent-post3.png" alt="Blog Image"></a>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="post-title"><a class="text-inherit" href="blog-details.html">
+                                    <h4 class="post-title"><a class="text-inherit" href="#">
                                         Conselhos sobre dicas de nutrição para frequentadores de academia</a></h4>
                                 </div>
                             </div>

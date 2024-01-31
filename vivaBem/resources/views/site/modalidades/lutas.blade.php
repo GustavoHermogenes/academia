@@ -34,9 +34,9 @@ Blog Area
                         <img src="../img/lutas1.jpeg" alt="blog image">
                     </div>
                     <div class="blog-content">
-                        <h3 class="blog-title"><a href="blog-details.html">Força e Técnica: Treinamento de Lutas de Elite na VivaBem</a></h3>
+                        <h3 class="blog-title"><a href="#">Força e Técnica: Treinamento de Lutas de Elite na VivaBem</a></h3>
                         <p> Entre no ringue conosco! Descubra o treinamento de lutas de elite na VivaBem, onde força e técnica se encontram para criar atletas excepcionais. Seja você um iniciante ou um lutador experiente, nossa abordagem personalizada irá aprimorar suas habilidades, fortalecer seu corpo e elevar seu espírito de luta. Esteja preparado para desafios emocionantes e superações constantes!</p>
-                        <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
+                        <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
                     </div>
                 </div>
                 <div class="blog-card style4">
@@ -44,9 +44,9 @@ Blog Area
                         <img src="../img/lutas2.jpeg" alt="blog image">
                     </div>
                     <div class="blog-content">
-                        <h3 class="blog-title"><a href="blog-details.html">Transforme-se em um Guerreiro: Treinamento de Lutas na VivaBem</a></h3>
+                        <h3 class="blog-title"><a href="#">Transforme-se em um Guerreiro: Treinamento de Lutas na VivaBem</a></h3>
                         <p>Torne-se o guerreiro que sempre quis ser com nosso treinamento de lutas na VivaBem. Deixe-nos guiá-lo através de técnicas avançadas, estratégias inteligentes e condicionamento físico de alto nível. Supere seus limites, abrace a resiliência e transforme-se em um verdadeiro guerreiro. A revolução das lutas começa aqui!</p>
-                        <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
+                        <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
                     </div>
                 </div>
                 <div class="blog-card style4">
@@ -54,9 +54,9 @@ Blog Area
                         <img src="../img/lutas3.jpeg" alt="blog image">
                     </div>
                     <div class="blog-content">
-                        <h3 class="blog-title"><a href="blog-details.html">Disciplina e Determinação: A Arte das Lutas na VivaBem</a></h3>
+                        <h3 class="blog-title"><a href="#">Disciplina e Determinação: A Arte das Lutas na VivaBem</a></h3>
                         <p>Na VivaBem, abraçamos a disciplina e a determinação como pilares fundamentais de nossa abordagem para as lutas. Descubra como nossos treinadores especializados ajudarão você a desenvolver habilidades técnicas sólidas, resistência incomparável e a mentalidade vencedora necessária para brilhar no octógono. Seja parte da revolução das lutas conosco!</p>
-                        <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
+                        <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
                     </div>
                 </div>
                 <div class="pagination">
@@ -83,26 +83,26 @@ Blog Area
                         <div class="recent-post-wrap">
                             <div class="recent-post">
                                 <div class="media-img">
-                                    <a href="blog-details.html"><img src="../img/recent-post1.png" alt="Blog Image"></a>
+                                    <a href="#"><img src="../img/recent-post1.png" alt="Blog Image"></a>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Estratégias essenciais para maximizar seu treino</a></h4>
+                                    <h4 class="post-title"><a class="text-inherit" href="#">Estratégias essenciais para maximizar seu treino</a></h4>
                                 </div>
                             </div>
                             <div class="recent-post">
                                 <div class="media-img">
-                                    <a href="blog-details.html"><img src="../img/recent-post2.png" alt="Blog Image"></a>
+                                    <a href="#"><img src="../img/recent-post2.png" alt="Blog Image"></a>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Treinamento funcional na sua rotina...</a></h4>
+                                    <h4 class="post-title"><a class="text-inherit" href="#">Treinamento funcional na sua rotina...</a></h4>
                                 </div>
                             </div>
                             <div class="recent-post">
                                 <div class="media-img">
-                                    <a href="blog-details.html"><img src="../img/recent-post3.png" alt="Blog Image"></a>
+                                    <a href="#"><img src="../img/recent-post3.png" alt="Blog Image"></a>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="post-title"><a class="text-inherit" href="blog-details.html">
+                                    <h4 class="post-title"><a class="text-inherit" href="#">
                                         Conselhos sobre dicas de nutrição para frequentadores de academia</a></h4>
                                 </div>
                             </div>

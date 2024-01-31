@@ -33,9 +33,9 @@ Blog Area
                         <img src="../img/meditacao1.jpeg" alt="blog image">
                     </div>
                     <div class="blog-content">
-                        <h3 class="blog-title"><a href="blog-details.html">Serenidade Interior: Descubra a Meditação Profunda na VivaBem</a></h3>
+                        <h3 class="blog-title"><a href="#">Serenidade Interior: Descubra a Meditação Profunda na VivaBem</a></h3>
                         <p> Embarque em uma jornada de descoberta interior com nossa prática profunda de meditação na VivaBem! Liberte-se do caos do cotidiano enquanto aprende a cultivar a serenidade dentro de si. Deixe que nossas técnicas guiadas o conduzam a um estado de tranquilidade, renovando sua mente, corpo e espírito. Descubra a paz que existe dentro de você.</p>
-                        <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
+                        <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
                     </div>
                 </div>
                 <div class="blog-card style4">
@@ -43,9 +43,9 @@ Blog Area
                         <img src="../img/meditacao2.jpeg" alt="blog image">
                     </div>
                     <div class="blog-content">
-                        <h3 class="blog-title"><a href="blog-details.html">Mente Calma, Coração Aberto: Meditação Guiada na VivaBem</a></h3>
+                        <h3 class="blog-title"><a href="#">Mente Calma, Coração Aberto: Meditação Guiada na VivaBem</a></h3>
                         <p> Na VivaBem, acreditamos no poder transformador da meditação guiada. Aprenda a acalmar sua mente, abrir seu coração e encontrar um refúgio de paz em meio ao frenesi da vida diária. Deixe que nossas práticas guiadas o levem a um estado de harmonia, onde a clareza mental e a paz interior se tornam seus aliados constantes.</p>
-                        <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
+                        <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
                     </div>
                 </div>
                 <div class="blog-card style4">
@@ -53,9 +53,9 @@ Blog Area
                         <img src="../img/meditacao3.jpeg" alt="blog image">
                     </div>
                     <div class="blog-content">
-                        <h3 class="blog-title"><a href="blog-details.html">Equilíbrio Interior: Meditação para Uma Vida Plena na VivaBem</a></h3>
+                        <h3 class="blog-title"><a href="#">Equilíbrio Interior: Meditação para Uma Vida Plena na VivaBem</a></h3>
                         <p>Busque o equilíbrio interior em cada sessão de meditação na VivaBem. Descubra como as práticas contemplativas podem criar uma base sólida para uma vida plena e significativa. Sintonize-se com seu eu interior, alivie o estresse e descubra uma sensação duradoura de equilíbrio. Junte-se a nós e comece a jornada para uma mente tranquila e uma vida mais plena.</p>
-                        <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
+                        <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
                     </div>
                 </div>
                 <div class="pagination">
@@ -82,26 +82,26 @@ Blog Area
                         <div class="recent-post-wrap">
                             <div class="recent-post">
                                 <div class="media-img">
-                                    <a href="blog-details.html"><img src="../img/recent-post1.png" alt="Blog Image"></a>
+                                    <a href="#"><img src="../img/recent-post1.png" alt="Blog Image"></a>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Estratégias essenciais para maximizar seu treino</a></h4>
+                                    <h4 class="post-title"><a class="text-inherit" href="#">Estratégias essenciais para maximizar seu treino</a></h4>
                                 </div>
                             </div>
                             <div class="recent-post">
                                 <div class="media-img">
-                                    <a href="blog-details.html"><img src="../img/recent-post2.png" alt="Blog Image"></a>
+                                    <a href="#"><img src="../img/recent-post2.png" alt="Blog Image"></a>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Treinamento funcional na sua rotina...</a></h4>
+                                    <h4 class="post-title"><a class="text-inherit" href="#">Treinamento funcional na sua rotina...</a></h4>
                                 </div>
                             </div>
                             <div class="recent-post">
                                 <div class="media-img">
-                                    <a href="blog-details.html"><img src="../img/recent-post3.png" alt="Blog Image"></a>
+                                    <a href="#"><img src="../img/recent-post3.png" alt="Blog Image"></a>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="post-title"><a class="text-inherit" href="blog-details.html">
+                                    <h4 class="post-title"><a class="text-inherit" href="#">
                                         Conselhos sobre dicas de nutrição para frequentadores de academia</a></h4>
                                 </div>
                             </div>

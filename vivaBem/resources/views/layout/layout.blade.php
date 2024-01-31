@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,16 +21,21 @@
     <meta name="msapplication-TileImage" content="{{ asset('img/ms-icon-144x144.png') }}">
     <meta name="theme-color" content="#ffffff">
 
-    <!--==============================
-	  Google Fonts
-	============================== -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&family=Kumbh+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!--==============================
-	    All CSS File
-	============================== -->
+ Google Fonts
+ ============================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&family=Kumbh+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!--==============================
+ All CSS File
+ ============================== -->
     <!-- Bootstrap -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <!-- Fontawesome Icon -->
@@ -42,6 +48,7 @@
     <link rel="stylesheet" href="{{ asset('css/jquery.flipster.min.css') }}">
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
 
 </head>
 
@@ -69,7 +76,9 @@
                     <div class="footer-logo">
                         <a href="index.html"><img src="{{ asset('img/logoVivaBem.svg') }}" alt="Fitmas"></a>
                     </div>
-                    <p class="about-text">Uma academia, também conhecida como centro de fitness ou clube de saúde, é uma instalação dedicada à preparação física e academias de ginástica e normalmente oferece uma variedade de exercícios e equipamentos
+                    <p class="about-text">Uma academia, também conhecida como centro de fitness ou clube de saúde, é uma
+                        instalação dedicada à preparação física e academias de ginástica e normalmente oferece uma
+                        variedade de exercícios e equipamentos
                     </p>
                     <div class="social-btn">
                         <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
@@ -100,7 +109,8 @@
         <div class="mobile-menu-area text-center">
             <button class="menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.html"><img src="{{ asset('img/logoVivaBem.svg') }}" alt="Fitmas" style="width: 50%"></a>
+                <a href="index.html"><img src="{{ asset('img/logoVivaBem.svg') }}" alt="Fitmas"
+                        style="width: 50%"></a>
             </div>
             <div class="mobile-menu">
                 <ul>
@@ -141,7 +151,8 @@
                     <div class="col-auto d-none d-lg-block">
                         <div class="header-links">
                             <ul>
-                                <li><i class="far fa-envelope"></i><a href="mailto:info@gmail.com">VivaBem@gmail.com</a></li>
+                                <li><i class="far fa-envelope"></i><a
+                                        href="mailto:info@gmail.com">VivaBem@gmail.com</a></li>
                                 <li><i class="far fa-clock"></i>Seg - Sab: 8.00 -19.00</li>
                             </ul>
                         </div>
@@ -171,7 +182,8 @@
                     <div class="row align-items-center justify-content-lg-start justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="{{ url('/') }}"><img src="{{ asset('img/logoVivaBem.svg') }}" alt="logo"></a>
+                                <a href="{{ url('/') }}"><img src="{{ asset('img/logoVivaBem.svg') }}"
+                                        alt="logo"></a>
                             </div>
                         </div>
                         <div class="col-auto m-lg-auto">
@@ -206,7 +218,8 @@
                                 </ul>
                             </nav>
                             <div class="navbar-right d-inline-flex d-lg-none">
-                                <button type="button" class="menu-toggle icon-btn"><i class="far fa-bars"></i></button>
+                                <button type="button" class="menu-toggle icon-btn"><i
+                                        class="far fa-bars"></i></button>
                             </div>
                         </div>
                         <div class="col-auto d-xxl-block d-none">
@@ -216,8 +229,8 @@
                         </div>
                         <div class="col-auto d-none d-lg-block">
                             <div class="header-button">
-                                <a href="{{ url('orcamento') }}" class="btn style2 style-r0 d-xl-block d-none">
-                                    Orçamento
+                                <a href="{{ url('login') }}" class="btn style2 style-r0 d-xl-block d-none">
+                                    Login
                                 </a>
                                 <button type="button" class="btn style-r0 btn-border3 sideMenuToggler">
                                     <i class="far fa-bars"></i>
@@ -236,8 +249,8 @@
 
     </main>
 
-     {{-- Rodapé --}}
-     <footer class="footer-wrapper footer-layout1" data-bg-src="{{ asset('img/footer-1-bg.png') }}">
+    {{-- Rodapé --}}
+    <footer class="footer-wrapper footer-layout1" data-bg-src="{{ asset('img/footer-1-bg.png') }}">
         <div class="container">
             <div class="widget-area">
                 <div class="row justify-content-between">
@@ -252,8 +265,10 @@
                                     saúde, é uma instalação dedicada à preparação física e academias de ginástica</p>
                                 <div class="social-btn">
                                     <a href="https://twitter.com/" tabindex="0"><i class="fab fa-twitter"></i></a>
-                                    <a href="https://linkedin.com/" tabindex="0"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="https://www.discord.com/" tabindex="0"><i class="fab fa-discord"></i></a>
+                                    <a href="https://linkedin.com/" tabindex="0"><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://www.discord.com/" tabindex="0"><i
+                                            class="fab fa-discord"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -279,33 +294,33 @@
                             <div class="sidebar-gallery">
                                 <div class="gallery-thumb">
                                     <img src="{{ asset('img/insta-feed1.png') }}" alt="Gallery Image">
-                                    <a href="{{ asset('img/insta-feed1.png') }}"
-                                        class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <a href="{{ asset('img/insta-feed1.png') }}" class="gallery-btn popup-image"><i
+                                            class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="gallery-thumb">
                                     <img src="{{ asset('img/insta-feed2.png') }}" alt="Gallery Image">
-                                    <a href="{{ asset('img/insta-feed2.png') }}"
-                                        class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <a href="{{ asset('img/insta-feed2.png') }}" class="gallery-btn popup-image"><i
+                                            class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="gallery-thumb">
                                     <img src="{{ asset('img/insta-feed3.png') }}" alt="Gallery Image">
-                                    <a href="{{ asset('img/insta-feed3.png') }}"
-                                        class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <a href="{{ asset('img/insta-feed3.png') }}" class="gallery-btn popup-image"><i
+                                            class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="gallery-thumb">
                                     <img src="{{ asset('img/insta-feed4.png') }}" alt="Gallery Image">
-                                    <a href="{{ asset('img/insta-feed4.png') }}"
-                                        class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <a href="{{ asset('img/insta-feed4.png') }}" class="gallery-btn popup-image"><i
+                                            class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="gallery-thumb">
                                     <img src="{{ asset('img/insta-feed5.png') }}" alt="Gallery Image">
-                                    <a href="{{ asset('img/insta-feed5.png') }}"
-                                        class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <a href="{{ asset('img/insta-feed5.png') }}" class="gallery-btn popup-image"><i
+                                            class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="gallery-thumb">
                                     <img src="{{ asset('img/insta-feed6.png') }}" alt="Gallery Image">
-                                    <a href="{{ asset('img/insta-feed6.png') }}"
-                                        class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <a href="{{ asset('img/insta-feed6.png') }}" class="gallery-btn popup-image"><i
+                                            class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -314,14 +329,24 @@
                         <div class="widget footer-widget">
                             <h3 class="widget_title">Receba notícias</h3>
                             <p class="footer-text">Ganhe 10% de desconto no seu primeiro pedido! Se apresse!!!</p>
-                            <form class="newsletter-form">
+
+
+
+                            <form action=" {{ route('contato.enviarEmail') }}" method="POST" class="newsletter-form" id="formSalvarEmail">
+                                @csrf
                                 <div class="form-group">
                                     <i class="far fa-envelope"></i>
-                                    <input class="form-control" type="email" placeholder="Adicione um email"
-                                        required="">
+                                    <input class="form-control" type="email" name="salvarEmail" id="salvarEmail" placeholder="Adicione um email">
                                 </div>
-                                <button type="submit" class="btn style-r0 style2">inscreva-se</button>
+                                <div class="form-btn col-12">
+                                    <input type="submit" value="Enviar via e-mail" class="btn-enviar" onclick="formSalvarEmail(event)">
+                                    <div id="salvarMensagem" class="msgContato"></div>
+                                </div>
                             </form>
+
+
+
+
                         </div>
                     </div>
                 </div>
@@ -340,9 +365,10 @@
     </footer>
 
 
-      <!--==============================
+    <!--==============================
     All Js File
     ============================== -->
+    <!-- Jquery -->
     <!-- Jquery -->
     <script src="{{ asset('js/vendor/jquery-3.6.0.min.js') }}"></script>
     <!-- Slick Slider -->
@@ -365,6 +391,8 @@
 
     <!-- Main Js File -->
     <script src="{{ asset('js/main.js') }}"></script>
+
+    <script src="{{ asset('js/script.js') }}"></script>
 
 </body>
 

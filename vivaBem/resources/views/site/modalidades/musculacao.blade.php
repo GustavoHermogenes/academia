@@ -34,9 +34,9 @@ Blog Area
                         <img src="../img/blog_s1_1.png" alt="blog image">
                     </div>
                     <div class="blog-content">
-                        <h3 class="blog-title"><a href="blog-details.html">Desperte Seu Potencial: Treino Intenso para Resultados Extraordinários</a></h3>
+                        <h3 class="blog-title"><a href="#">Desperte Seu Potencial: Treino Intenso para Resultados Extraordinários</a></h3>
                         <p>Elevamos a barra da excelência com nosso treino de musculação intenso na VivaBem! Descubra o poder latente dentro de você enquanto esculpe seu corpo, fortalece seus músculos e alcança resultados extraordinários. Seja parte da revolução fitness e transforme seu corpo no melhor que ele pode ser.</p>
-                        <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
+                        <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
                     </div>
                 </div>
                 <div class="blog-card style4">
@@ -44,9 +44,9 @@ Blog Area
                         <img src="../img/blog_s1_2.png" alt="blog image">
                     </div>
                     <div class="blog-content">
-                        <h3 class="blog-title"><a href="blog-details.html">Força e Equilíbrio: A Revolução da Musculação na VivaBem</a></h3>
+                        <h3 class="blog-title"><a href="#">Força e Equilíbrio: A Revolução da Musculação na VivaBem</a></h3>
                         <p>Na VivaBem, acreditamos na harmonia entre força e equilíbrio. Experimente nossa abordagem inovadora de musculação, projetada para esculpir cada músculo, promover equilíbrio corporal e elevar sua resistência. Seu caminho para uma transformação total começa aqui. Desperte o equilíbrio, cultive a força!</p>
-                        <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
+                        <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
                     </div>
                 </div>
                 <div class="blog-card style4">
@@ -54,9 +54,9 @@ Blog Area
                         <img src="../img/blog_s1_3.png" alt="blog image">
                     </div>
                     <div class="blog-content">
-                        <h3 class="blog-title"><a href="blog-details.html">Transformação Total: Musculação na VivaBem para uma Vida mais Saudável</a></h3>
+                        <h3 class="blog-title"><a href="#">Transformação Total: Musculação na VivaBem para uma Vida mais Saudável</a></h3>
                         <p>Embarque na jornada de transformação total com a musculação na VivaBem. Nossos treinos personalizados não são apenas sobre músculos, mas sobre promover uma vida mais saudável. Descubra como a musculação pode impulsionar não apenas sua força física, mas também sua saúde mental e emocional. Torne-se a melhor versão de si mesmo conosco!</p>
-                        <a href="blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
+                        <a href="#" class="link-btn style2"><i class="fas fa-arrow-right"></i>Saiba mais</a>
                     </div>
                 </div>
                 <div class="pagination">
@@ -83,26 +83,26 @@ Blog Area
                         <div class="recent-post-wrap">
                             <div class="recent-post">
                                 <div class="media-img">
-                                    <a href="blog-details.html"><img src="../img/recent-post1.png" alt="Blog Image"></a>
+                                    <a href="#"><img src="../img/recent-post1.png" alt="Blog Image"></a>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Estratégias essenciais para maximizar seu treino</a></h4>
+                                    <h4 class="post-title"><a class="text-inherit" href="#">Estratégias essenciais para maximizar seu treino</a></h4>
                                 </div>
                             </div>
                             <div class="recent-post">
                                 <div class="media-img">
-                                    <a href="blog-details.html"><img src="../img/recent-post2.png" alt="Blog Image"></a>
+                                    <a href="#"><img src="../img/recent-post2.png" alt="Blog Image"></a>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Treinamento funcional na sua rotina...</a></h4>
+                                    <h4 class="post-title"><a class="text-inherit" href="#">Treinamento funcional na sua rotina...</a></h4>
                                 </div>
                             </div>
                             <div class="recent-post">
                                 <div class="media-img">
-                                    <a href="blog-details.html"><img src="../img/recent-post3.png" alt="Blog Image"></a>
+                                    <a href="#"><img src="../img/recent-post3.png" alt="Blog Image"></a>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="post-title"><a class="text-inherit" href="blog-details.html">
+                                    <h4 class="post-title"><a class="text-inherit" href="#">
                                         Conselhos sobre dicas de nutrição para frequentadores de academia</a></h4>
                                 </div>
                             </div>
